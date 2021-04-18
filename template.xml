@@ -1584,36 +1584,6 @@ dd.comment-footer, dd.comment-body {
             <div class='container-fluid bg-dark btemplates-dropdown' id='btemplates-dropdown-2'>
                 <!-- Menu Link -->
                 <div class='d-flex justify-content-between'>
-                    <nav class='navbar navbar-expand-lg navbar-dark bg-dark d-none py-0 '>
-                        <button aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler' data-target='#TopMenu' data-toggle='collapse' type='button'>
-                            <span class='navbar-toggler-icon'/>
-                        </button>
-                        <b:section class='crosscol collapse navbar-collapse' id='TopMenu' maxwidgets='1' name='Top Menu' showaddelement='yes'>
-                          <b:widget id='LinkList67' locked='false' title='Top Links Menu' type='LinkList' version='1'>
-                            <b:widget-settings>
-                              <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                              <b:widget-setting name='text-1'>email@example.com</b:widget-setting>
-                              <b:widget-setting name='link-1'>mailto:email@example.com</b:widget-setting>
-                              <b:widget-setting name='text-0'>+1-687-6895465</b:widget-setting>
-                              <b:widget-setting name='link-2'>https://www.google.com/maps/#your_map_link</b:widget-setting>
-                              <b:widget-setting name='link-0'>tel:+1-687-6895465</b:widget-setting>
-                              <b:widget-setting name='text-2'>An address</b:widget-setting>
-                            </b:widget-settings>
-                            <b:includable id='main'>
-
-                                    <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
-                                    <div class='widget-content'>
-                                        <ul>
-                                            <b:loop values='data:links' var='link'>
-                                                <li><a expr:href='data:link.target'><data:link.name/></a></li>
-                                            </b:loop>
-                                        </ul>
-                                        <b:include name='quickedit'/>
-                                    </div>
-                                </b:includable>
-                          </b:widget>
-                        </b:section>
-                    </nav>
                     <div class='navbar-simple d-none' id='btemplates-social'>
                         <b:section id='SocialNetworks' maxwidgets='1' name='Social media icons' showaddelement='yes'>
                           <b:widget id='LinkList68' locked='false' title='Top Links Menu' type='LinkList' version='1'>
