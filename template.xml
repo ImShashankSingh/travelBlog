@@ -3751,7 +3751,7 @@ dd.comment-footer, dd.comment-body {
                         <div class='col-12 col-md-5 mb-3 mb-md-0' id='you-can-modify-this-as-you-want'>
                             <span class='links'> Copyright &#169; <span id='this-year'>2019</span> <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>.</span>
                         </div>
-                        <div class='col-12 col-md-7 text-md-right' id='thanks-for-keeping-this'><span class='text-danger'><i aria-hidden='true' class='fa fa-heart'/></span> Designed by <a href='https://btemplates.com/' rel='nofollow' title='Blogger templates'>Blogger Templates</a>, <a href='https://rivieramaya.mx/' rel='nofollow'>Riviera Maya</a> &amp; <a href='https://kankunlvyou.com' rel='nofollow'>坎昆旅游</a></div>
+                        <div class='col-12 col-md-7 text-md-right' id='thanks-for-keeping-this' style='visibility: hidden'><span class='text-danger'><i aria-hidden='true' class='fa fa-heart'/></span> Designed by <a href='https://btemplates.com/' rel='nofollow' title='Blogger templates'>Blogger Templates</a>, <a href='https://rivieramaya.mx/' rel='nofollow'>Riviera Maya</a> &amp; <a href='https://kankunlvyou.com' rel='nofollow'>坎昆旅游</a></div>
                     </div>
                 </div>
             </div>
